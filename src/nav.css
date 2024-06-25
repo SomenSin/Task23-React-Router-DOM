@@ -1,0 +1,46 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  height: 60px;
+  width: 100%;
+}
+
+.nav div,
+.nav h2,
+.nav .buttons {
+  display: flex;
+  align-items: center;
+}
+
+.nav .nav-link, .nav .nav-button {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav .nav-link:hover, .nav .nav-button:hover {
+  text-decoration: underline;
+}
+
+.nav .nav-button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.nav .nav-button:hover {
+  background-color: #777;
+}

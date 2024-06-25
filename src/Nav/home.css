@@ -1,0 +1,12 @@
+/* Home.css */
+
+.custom-scrollbar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just in case */
+  }
+  
